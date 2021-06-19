@@ -1,0 +1,22 @@
+div {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+}
+
+#blue-ring {
+  background: blue;
+  overflow: auto;
+  border-radius: 50%;
+}
+
+.inner-ring {
+  background: white;
+  overflow: auto;
+  position: absolute;
+  border: 5px solid red;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+/*todo- need to figure out how to put elements on top of each other, and method for making a ring */
