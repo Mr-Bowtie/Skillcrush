@@ -25,10 +25,12 @@ body {
 header {
   color: #77a466;
   text-transform: uppercase;
-  padding: 0px 10px 40px 10px;
+  padding: 25px 10px 25px 10px;
   font-weight: bold;
-  padding: auto 0;
   height: 100%;
+}
+
+header .half-width {
 }
 
 header h1 {
@@ -40,7 +42,9 @@ header h1 span {
 }
 
 nav {
+  padding-top: 15px;
   float: right;
+  text-align: center;
 }
 
 nav ul li {
@@ -56,10 +60,16 @@ nav ul li a {
 
 /***** Top Section *****/
 
+img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
 #top h2 {
   margin-top: 33px;
   font-size: 18px;
   font-weight: bold;
+  line-height: 23px;
   color: #77a466;
   text-transform: uppercase;
 }
@@ -68,4 +78,85 @@ nav ul li a {
   margin-top: 29px;
   font-size: 16px;
   line-height: 25px;
+}
+
+/***** Bottom Section *****/
+
+#bottom .full-width {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+#specials,
+#reviews {
+  width: 399px;
+}
+
+#reviews h3,
+#contact h3 {
+  padding-left: 29px;
+}
+
+#bottom h3 {
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+  padding-top: 29px;
+  margin: 0;
+}
+
+#specials ul {
+  padding-left: 0;
+}
+
+#specials ul li {
+  list-style: none;
+  padding: 10px 0px 10px 0px;
+}
+
+#specials ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #77a466;
+  line-height: 18px;
+}
+
+#reviews {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+
+#reviews p {
+  font-size: 16px;
+  line-height: 21px;
+  padding: 25px 43px 25px 29px;
+  margin: 0px;
+}
+
+#contact ul {
+  padding-left: 29px;
+}
+
+#contact ul li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/***** Footer *****/
+
+footer .full-width {
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: bold;
+  padding: 25px 400px 33px 400px;
+  text-align: center;
+}
+
+footer p span {
+  font-family: "Galada";
+  color: #77a466;
 }
