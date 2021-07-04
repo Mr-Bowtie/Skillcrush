@@ -1,0 +1,48 @@
+body {
+  background-color: #e8e8e8;
+  font-size: 20px;
+  color: #3b3b3b;
+}
+
+#vision-board {
+  width: 1200px;
+  height: 850px;
+  margin: auto;
+  overflow: auto;
+  background-image: url("../img/background.png");
+  font-family: "Montserrat", sans-serif;
+}
+
+.block {
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.small-block {
+  height: 210px;
+}
+
+.large-block {
+  height: 430px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p span {
+  font-size: 38px;
+}
