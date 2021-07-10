@@ -13,10 +13,13 @@ body {
   align-items: center;
 }
 
-container {
+#container {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1200px;
+  width: 90%;
+  flex-flow: row wrap;
 }
 
 /***** Header *****/
@@ -24,16 +27,20 @@ container {
 header {
   color: #77a466;
   text-transform: uppercase;
-  padding: 25px 10px 25px 10px;
+  padding: 1.6em 0;
   font-weight: bold;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column wrap;
 }
 
 header h1 {
   font-size: 2em;
+  margin-bottom: 0.5em;
+  border-bottom: 3px solid #77a466;
+  padding-bottom: 0.75em;
 }
 
 header h1 span {
@@ -41,19 +48,29 @@ header h1 span {
 }
 
 nav {
-  padding-top: 1em;
   text-align: center;
 }
 
+nav ul {
+  padding: 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
 nav ul li {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul li a {
   font-size: 1em;
-  padding-left: 1.25em;
   list-style: none;
   text-decoration: none;
+  padding-top: 1em;
 }
 
 /***** Top Section *****/
@@ -62,15 +79,17 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 img {
   border-top: 3px solid #77a466;
   border-bottom: 3px solid #77a466;
+  width: 100%;
 }
 
 #top h2 {
-  margin-top: 33px;
+  margin-top: 2em;
   font-size: 1.15em;
   font-weight: bold;
   line-height: 1.5em;
@@ -79,9 +98,9 @@ img {
 }
 
 #top p {
-  margin-top: 29px;
-  font-size: 16px;
-  line-height: 25px;
+  margin-top: 1.8em;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 /***** Bottom Section *****/
@@ -90,28 +109,13 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#bottom .full-width {
-  border-top: 1px solid #dedbdc;
-  border-bottom: 1px solid #dedbdc;
-}
-
-#specials,
-#reviews {
-  width: 399px;
-}
-
-#reviews h3,
-#contact h3 {
-  padding-left: 29px;
+  flex-flow: row wrap;
 }
 
 #bottom h3 {
-  font-size: 12px;
-  line-height: 25px;
+  font-size: 0.75em;
+  line-height: 1.5em;
   text-transform: uppercase;
-  padding-top: 29px;
   margin: 0;
 }
 
@@ -121,51 +125,55 @@ img {
 
 #specials ul li {
   list-style: none;
-  padding: 10px 0px 10px 0px;
+  padding: 0.6em 0;
 }
 
 #specials ul li a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1em;
   color: #77a466;
-  line-height: 18px;
+  line-height: 1.15em;
 }
 
-#reviews {
-  border-left: 1px solid #dedbdc;
-  border-right: 1px solid #dedbdc;
+#reviews,
+#specials,
+#contact {
+  border-top: 1px solid #dedbdc;
+  padding-top: 1.5em;
 }
 
 #reviews p {
-  font-size: 16px;
-  line-height: 21px;
-  padding: 25px 43px 25px 29px;
+  font-size: 1em;
+  line-height: 1.25em;
   margin: 0px;
+  padding: 1.25em 0;
 }
 
 #contact ul {
-  padding-left: 29px;
+  padding-left: 1.8em;
 }
 
 #contact ul li {
   list-style: none;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 /***** Footer *****/
 
 footer {
   display: flex;
+  width: 100%;
+  text-align: center;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 footer p {
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 1em;
+  line-height: 1.5em;
   font-weight: bold;
-  padding: 25px 400px 33px 400px;
   text-align: center;
 }
 
