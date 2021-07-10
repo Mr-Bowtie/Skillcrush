@@ -1,23 +1,22 @@
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
+  font-size: 1em;
   color: black;
-}
-
-.full-width {
-  margin: 0 auto;
   overflow: auto;
-  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.half-width {
-  float: left;
-  width: 600px;
-}
-
-.third-width {
-  float: left;
-  width: 400px;
+container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /***** Header *****/
@@ -28,10 +27,13 @@ header {
   padding: 25px 10px 25px 10px;
   font-weight: bold;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header h1 {
-  font-size: 30px;
+  font-size: 2em;
 }
 
 header h1 span {
@@ -39,8 +41,7 @@ header h1 span {
 }
 
 nav {
-  padding-top: 15px;
-  float: right;
+  padding-top: 1em;
   text-align: center;
 }
 
@@ -49,13 +50,19 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 14px;
-  padding-left: 20px;
+  font-size: 1em;
+  padding-left: 1.25em;
   list-style: none;
   text-decoration: none;
 }
 
 /***** Top Section *****/
+
+#top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 img {
   border-top: 3px solid #77a466;
@@ -64,9 +71,9 @@ img {
 
 #top h2 {
   margin-top: 33px;
-  font-size: 18px;
+  font-size: 1.15em;
   font-weight: bold;
-  line-height: 23px;
+  line-height: 1.5em;
   color: #77a466;
   text-transform: uppercase;
 }
@@ -78,6 +85,12 @@ img {
 }
 
 /***** Bottom Section *****/
+
+#bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 #bottom .full-width {
   border-top: 1px solid #dedbdc;
@@ -141,6 +154,12 @@ img {
 }
 
 /***** Footer *****/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 footer p {
   font-size: 16px;
