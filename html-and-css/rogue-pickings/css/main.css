@@ -140,6 +140,7 @@ img {
 #contact {
   border-top: 1px solid #dedbdc;
   padding-top: 1.5em;
+  width: 100%;
 }
 
 #reviews p {
@@ -180,4 +181,70 @@ footer p {
 footer p span {
   font-family: "Galada";
   color: #77a466;
+}
+
+/***** Media Queries *****/
+
+@media all and (min-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  header nav {
+    width: 100%;
+  }
+
+  header nav ul {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  #bottom {
+    width: 100%;
+    align-items: baseline;
+    border-top: 1px solid #dedbdc;
+  }
+
+  #specials,
+  #reviews,
+  #contact {
+    width: 30%;
+    border-top: none;
+  }
+
+  #reviews {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    padding-left: 1.5em;
+    padding-right: 1em;
+  }
+
+  #contact h3 {
+    padding-left: 1.8em;
+  }
+
+  footer {
+    margin-top: 2em;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  header {
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header nav {
+    width: 50%;
+  }
+
+  header nav ul li a {
+    padding: 0;
+  }
 }
