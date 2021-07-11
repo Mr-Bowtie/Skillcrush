@@ -87,6 +87,114 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*!----------------- Base header & footer styles ----------------*/
+
+header,
+footer {
+}
+
+header .content-wrapper {
+}
+
+.head-image {
+}
+
+header nav {
+}
+
+footer .footer-content {
+}
+
+.contact {
+}
+
+.social {
+}
+
+.social-icons {
+}
+
+.copyright {
+}
+
+/*!------------ Mobile - Homepage styles --------------*/
+
+.hero-area {
+}
+
+.hero-area .content-wrapper {
+}
+
+.hero-area .form-description {
+}
+
+.hero-area .form {
+}
+
+.hero-area .form input {
+}
+
+.features {
+}
+
+.features .content-wrapper {
+}
+
+.features .features-items {
+}
+
+.features .fontawesome-icon {
+}
+
+.features .features-item-description {
+}
+
+.reviews {
+}
+
+.reviews .content-wrapper {
+}
+
+.reviews .review-group {
+}
+
+.reviews .review-text {
+}
+
+/* !--------------- Mobile About page styles ----------------- */
+
+.mission {
+}
+
+.mission .content-wrapper {
+}
+
+.mission .mission-content {
+}
+
+.map {
+}
+
+.contact-section {
+}
+
+.contact-section .content-wrapper {
+}
+
+.contact-section .column {
+}
+
+/* !---------------------- Mobile FAQ styles ------------------- */
+
+.faq {
+}
+
+.faq .content-wrapper {
+}
+
+.faq .question {
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +368,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
