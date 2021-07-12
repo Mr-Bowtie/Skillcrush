@@ -91,56 +91,153 @@ textarea {
 
 header,
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 header .content-wrapper {
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-divider {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding-top: 8px;
 }
 
 .head-image {
 }
 
 header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+footer .contact address {
+  text-align: center;
 }
 
 .social {
 }
 
 .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .copyright {
 }
 
+.content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
 /*!------------ Mobile - Homepage styles --------------*/
 
 .hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.hero-area h1 {
+  margin: 0;
 }
 
 .hero-area .content-wrapper {
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-area .form-description {
+}
+
+.hero-area .form-description h3 {
+  text-align: left;
 }
 
 .hero-area .form {
 }
 
 .hero-area .form input {
+  margin: 7px 0;
+  width: 100%;
+  padding: 0;
+}
+
+.hero-area h3 {
+  margin: 30px 0 10px 0;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .features {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .features .content-wrapper {
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin: 0 10px;
+}
+
+.features article {
+  width: 50%;
 }
 
 .features .fontawesome-icon {
@@ -150,20 +247,44 @@ footer .footer-content {
 }
 
 .reviews {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .reviews .content-wrapper {
+  justify-content: center;
+  align-items: center;
 }
 
 .reviews .review-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
+.reviews .review-body {
+}
+
+.reviews .review-body h3 {
+}
 .reviews .review-text {
+}
+
+.reviews img {
+  width: 100%;
 }
 
 /* !--------------- Mobile About page styles ----------------- */
 
 .mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission .content-wrapper {
@@ -176,6 +297,10 @@ footer .footer-content {
 }
 
 .contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .contact-section .content-wrapper {
@@ -187,9 +312,17 @@ footer .footer-content {
 /* !---------------------- Mobile FAQ styles ------------------- */
 
 .faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq .question {
