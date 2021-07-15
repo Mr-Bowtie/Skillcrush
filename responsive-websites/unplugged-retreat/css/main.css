@@ -246,11 +246,11 @@ footer .contact address {
 }
 
 .social h3 {
-  padding: 0 50px;
+  padding: 1.25em 3.125em;
 }
 
 .social-icons {
-  width: 100%;
+  width: 70%;
 }
 
 .social-icons ul {
@@ -259,6 +259,16 @@ footer .contact address {
   align-items: center;
   flex-flow: row wrap;
   padding: 0;
+}
+
+.social-icons ul li {
+  border-radius: 50%;
+  background-color: #527158;
+  width: 2.5em;
+  height: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .copyright {
@@ -369,6 +379,10 @@ input[type="button"] {
   margin: 0 10px;
 }
 
+.features i {
+  font-size: 3.75em;
+}
+
 .features article {
   width: 65%;
 }
@@ -441,7 +455,7 @@ input[type="button"] {
 
 .map-container {
   position: relative;
-  padding-bottom: 130%;
+  padding-bottom: 125%;
   height: 0;
   overflow: hidden;
 }
@@ -459,6 +473,7 @@ input[type="button"] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-section .content-wrapper {
@@ -679,6 +694,10 @@ input[type="button"] {
 
   .mission .mission-content .second-paragraph {
     padding-left: 10px;
+  }
+
+  .map .map-container {
+    padding-bottom: 50%;
   }
 
   .contact-section .content-wrapper {
